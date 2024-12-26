@@ -1,0 +1,28 @@
+a {
+    color: black;
+    margin: 0;
+}
+
+.aboutcars::marker {
+    color: orangered;
+}
+
+.car {
+    padding: 0px 100px 0px 0px;
+    border-radius: 8px;
+    border: none;
+    background-color: aqua;
+    height: 104px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutcarss {
+    color: black;
+}
+
+.controlcars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

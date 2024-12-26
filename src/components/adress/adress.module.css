@@ -1,0 +1,21 @@
+.adress {
+    padding: 0px 100px 0px 0px;
+    background-color: orange;
+    border-radius: 8px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    color: white;
+}
+
+li::marker {
+    color: blue;
+    border: 1px solid black;
+}

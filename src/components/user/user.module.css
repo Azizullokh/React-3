@@ -1,0 +1,55 @@
+.userinfo {
+    display: flex;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    padding: 15px;
+    background-color: #fff;
+    /* border-radius: 8px; */
+    flex-direction: column;
+}
+
+.fullname {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.fullname h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.infos h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+span {
+    color: rgb(49, 227, 18);
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.phone {
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.email {
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img {
+    width: 200px;
+    margin: auto;
+}
